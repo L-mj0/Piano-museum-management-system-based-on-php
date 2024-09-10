@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/test4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.li1 {
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+
+.li1 a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.li1 a:hover {
+    background-color: #4f7790;
+}
+
+.li1 a.active {
+    background-color: #4f7790;
+    color: white;
+}
+
+.ul1 {
+    width: 98%;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    position: fixed;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    background: rgba(50, 50, 50, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 88%;
+    max-width: 900px;
+    margin-top: 70px; /* Adjusted for the navbar height */
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+.item_name {
+    color: black;
+    font-family: 微软雅黑, system-ui;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.item_img {
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #ccc;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: border-box;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.detail {
+    color: black;
+    font-family: 微软雅黑, system-ui;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.introduction {
+    text-indent: 2em;
+    color: black;
+    font-family: 微软雅黑, system-ui;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
